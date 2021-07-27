@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class SampleRestAPI {
 
-    @GetMapping
+    @GetMapping("/docker")
     public String hello() {
         return "hello docker";
     }
